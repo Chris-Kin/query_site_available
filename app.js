@@ -4,6 +4,6 @@ var traversalStr = require('./modules/traversalStr'),
 
 fs.writeFileSync('result.txt', '');
 
-var token = 'check-web-hichina-com%3Atc4p1t7y8pfrtfwe4qukewc52jc4ikw3&';
+var token = 'check-web-hichina-com%3Amj7hivdivji80bcy1k79j14566h7j8o2';
 
-traversalStr('efvxfmaa', 'a', querySite(token));
+traversalStr('stara', 'starz', querySite(token));

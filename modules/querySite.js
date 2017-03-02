@@ -13,8 +13,8 @@ module.exports = function(token) {
 		request('https://checkapi.aliyun.com/check/checkdomain?domain=' + site + '.com&token='+ token, function (error, response, body) {
 			if (!error && response.statusCode == 200) {
 				if (JSON.parse(body).module[0].avail === 1) {
-					console.log(site + ' is available!')
-					fs.appendFile('result.txt', site + ' is available\n', (err) => {
+					console.log(site + '.com is available!')
+					fs.appendFile('result.txt', site + '.com is available\n', (err) => {
 						if (err) throw err;
 					});
 				} else {
