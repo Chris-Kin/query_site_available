@@ -1,0 +1,23 @@
+{
+  "name": "query_site_available",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attacking/query_site_available.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attacking/query_site_available/issues"
+  },
+  "homepage": "https://github.com/attacking/query_site_available#readme"
+}
