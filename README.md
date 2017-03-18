@@ -10,6 +10,7 @@ var token = 'check-web-hichina-com%3Amj7hivdivji80bcy1k79j14566h7j8o2';
 traversalStr('startStr', 'endStr', querySite(token));
 `
 其中token需要手动去[https://checkapi.aliyun.com](https://checkapi.aliyun.com)抓'/check/checkdomain'请求获取到
+
 traversalStr函数中第一个和第二个参数表示查询范围
 
 ### 其他

@@ -8,7 +8,7 @@ var request = require('request'),
  */
 
 module.exports = function(token) {
-	return function(site, callback) {
+	return function(site) {
 		console.log(site);
 		request('https://checkapi.aliyun.com/check/checkdomain?domain=' + site + '.com&token='+ token, function (error, response, body) {
 			if (!error && response.statusCode == 200) {
@@ -18,7 +18,6 @@ module.exports = function(token) {
 						if (err) throw err;
 					});
 				}
-				callback && callback();
 			} else {
 				console.log('!!!!!!!!!   net error   !!!!!!!!!!\n');
 			}
