@@ -46,4 +46,5 @@ module.exports = function(startStr, endStr, dealStrFunc) {
     for(var i = startNumber; i <= endNumber; i++) {
         dealStrFunc && dealStrFunc(numberToStr(i));
     }
+
 }
