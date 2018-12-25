@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 var traversalStr = require('./modules/traversalStr');
 
 fs.writeFileSync('result.txt', '');
