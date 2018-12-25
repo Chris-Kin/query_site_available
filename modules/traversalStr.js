@@ -1,11 +1,10 @@
 /**
  * 遍历指定字符间的所有字符
  */
-
-    fs = require('fs');
-var token = 'check-web-hichina-com%3A5njn5t2ztt89h11887p671ugokhargjn';
-
+var fs = require('fs');
 var superagent = require('superagent');
+
+var token = 'check-web-hichina-com%3A5njn5t2ztt89h11887p671ugokhargjn';
 
 // 字符转数字
 function strToNumber(str) {
