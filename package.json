@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "request": "^2.79.0"
+    "superagent": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
